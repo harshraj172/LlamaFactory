@@ -718,5 +718,60 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "smoltalk": {
+    "hf_hub_url": "HuggingFaceTB/smoltalk",
+    "subset": "all",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "sealong": {
+    "hf_hub_url": "Siheng99/Qwen2.5-14B-Instruct-SEALONG-Dataset",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "longalign": {
+    "hf_hub_url": "zai-org/LongAlign-10k",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "long_sft": {
+    "hf_hub_url": "Harsh1729/long_sft",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
   }
 }

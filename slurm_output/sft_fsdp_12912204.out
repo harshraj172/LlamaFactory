@@ -1,0 +1,1388 @@
+==========================================
+Job started at: Thu Nov 27 01:08:35 AM CET 2025
+Job ID: 12912204
+Node: jwb0311.juwels
+==========================================
+MASTER_ADDR:MASTER_PORT set to: jwb0311i:29704
+Starting training...
+==========================================
+INFO:    Environment variable SINGULARITYENV_HF_HUB_OFFLINE is set, but APPTAINERENV_HF_HUB_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_DATASETS_OFFLINE is set, but APPTAINERENV_HF_DATASETS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_GPUS_PER_NODE is set, but APPTAINERENV_GPUS_PER_NODE is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_ADDR is set, but APPTAINERENV_MASTER_ADDR is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HOME is set, but APPTAINERENV_HF_HOME is preferred
+INFO:    Environment variable SINGULARITYENV_OMP_NUM_THREADS is set, but APPTAINERENV_OMP_NUM_THREADS is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_PORT is set, but APPTAINERENV_MASTER_PORT is preferred
+INFO:    Environment variable SINGULARITYENV_HUGGINGFACE_HUB_CACHE is set, but APPTAINERENV_HUGGINGFACE_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_TRANSFORMERS_OFFLINE is set, but APPTAINERENV_TRANSFORMERS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_TRITON_LIBCUDA_PATH is set, but APPTAINERENV_TRITON_LIBCUDA_PATH is preferred
+INFO:    Environment variable SINGULARITYENV_CUDA_DEVICE_MAX_CONNECTIONS is set, but APPTAINERENV_CUDA_DEVICE_MAX_CONNECTIONS is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_IB_TIMEOUT is set, but APPTAINERENV_NCCL_IB_TIMEOUT is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_DEBUG is set, but APPTAINERENV_NCCL_DEBUG is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_CACHE is set, but APPTAINERENV_HF_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_OFFLINE is set, but APPTAINERENV_HF_HUB_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_DATASETS_OFFLINE is set, but APPTAINERENV_HF_DATASETS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_GPUS_PER_NODE is set, but APPTAINERENV_GPUS_PER_NODE is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_ADDR is set, but APPTAINERENV_MASTER_ADDR is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HOME is set, but APPTAINERENV_HF_HOME is preferred
+INFO:    Environment variable SINGULARITYENV_OMP_NUM_THREADS is set, but APPTAINERENV_OMP_NUM_THREADS is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_PORT is set, but APPTAINERENV_MASTER_PORT is preferred
+INFO:    Environment variable SINGULARITYENV_HUGGINGFACE_HUB_CACHE is set, but APPTAINERENV_HUGGINGFACE_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_TRANSFORMERS_OFFLINE is set, but APPTAINERENV_TRANSFORMERS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_TRITON_LIBCUDA_PATH is set, but APPTAINERENV_TRITON_LIBCUDA_PATH is preferred
+INFO:    Environment variable SINGULARITYENV_CUDA_DEVICE_MAX_CONNECTIONS is set, but APPTAINERENV_CUDA_DEVICE_MAX_CONNECTIONS is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_IB_TIMEOUT is set, but APPTAINERENV_NCCL_IB_TIMEOUT is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_DEBUG is set, but APPTAINERENV_NCCL_DEBUG is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_CACHE is set, but APPTAINERENV_HF_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_OFFLINE is set, but APPTAINERENV_HF_HUB_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_DATASETS_OFFLINE is set, but APPTAINERENV_HF_DATASETS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_GPUS_PER_NODE is set, but APPTAINERENV_GPUS_PER_NODE is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_ADDR is set, but APPTAINERENV_MASTER_ADDR is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HOME is set, but APPTAINERENV_HF_HOME is preferred
+INFO:    Environment variable SINGULARITYENV_OMP_NUM_THREADS is set, but APPTAINERENV_OMP_NUM_THREADS is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_PORT is set, but APPTAINERENV_MASTER_PORT is preferred
+INFO:    Environment variable SINGULARITYENV_HUGGINGFACE_HUB_CACHE is set, but APPTAINERENV_HUGGINGFACE_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_TRANSFORMERS_OFFLINE is set, but APPTAINERENV_TRANSFORMERS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_TRITON_LIBCUDA_PATH is set, but APPTAINERENV_TRITON_LIBCUDA_PATH is preferred
+INFO:    Environment variable SINGULARITYENV_CUDA_DEVICE_MAX_CONNECTIONS is set, but APPTAINERENV_CUDA_DEVICE_MAX_CONNECTIONS is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_IB_TIMEOUT is set, but APPTAINERENV_NCCL_IB_TIMEOUT is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_DEBUG is set, but APPTAINERENV_NCCL_DEBUG is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_CACHE is set, but APPTAINERENV_HF_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_OFFLINE is set, but APPTAINERENV_HF_HUB_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_DATASETS_OFFLINE is set, but APPTAINERENV_HF_DATASETS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_GPUS_PER_NODE is set, but APPTAINERENV_GPUS_PER_NODE is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_ADDR is set, but APPTAINERENV_MASTER_ADDR is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HOME is set, but APPTAINERENV_HF_HOME is preferred
+INFO:    Environment variable SINGULARITYENV_OMP_NUM_THREADS is set, but APPTAINERENV_OMP_NUM_THREADS is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_PORT is set, but APPTAINERENV_MASTER_PORT is preferred
+INFO:    Environment variable SINGULARITYENV_HUGGINGFACE_HUB_CACHE is set, but APPTAINERENV_HUGGINGFACE_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_OFFLINE is set, but APPTAINERENV_HF_HUB_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_DATASETS_OFFLINE is set, but APPTAINERENV_HF_DATASETS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_GPUS_PER_NODE is set, but APPTAINERENV_GPUS_PER_NODE is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_ADDR is set, but APPTAINERENV_MASTER_ADDR is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HOME is set, but APPTAINERENV_HF_HOME is preferred
+INFO:    Environment variable SINGULARITYENV_OMP_NUM_THREADS is set, but APPTAINERENV_OMP_NUM_THREADS is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_PORT is set, but APPTAINERENV_MASTER_PORT is preferred
+INFO:    Environment variable SINGULARITYENV_HUGGINGFACE_HUB_CACHE is set, but APPTAINERENV_HUGGINGFACE_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_TRANSFORMERS_OFFLINE is set, but APPTAINERENV_TRANSFORMERS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_TRITON_LIBCUDA_PATH is set, but APPTAINERENV_TRITON_LIBCUDA_PATH is preferred
+INFO:    Environment variable SINGULARITYENV_CUDA_DEVICE_MAX_CONNECTIONS is set, but APPTAINERENV_CUDA_DEVICE_MAX_CONNECTIONS is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_IB_TIMEOUT is set, but APPTAINERENV_NCCL_IB_TIMEOUT is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_DEBUG is set, but APPTAINERENV_NCCL_DEBUG is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_CACHE is set, but APPTAINERENV_HF_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_OFFLINE is set, but APPTAINERENV_HF_HUB_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_DATASETS_OFFLINE is set, but APPTAINERENV_HF_DATASETS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_GPUS_PER_NODE is set, but APPTAINERENV_GPUS_PER_NODE is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_ADDR is set, but APPTAINERENV_MASTER_ADDR is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HOME is set, but APPTAINERENV_HF_HOME is preferred
+INFO:    Environment variable SINGULARITYENV_OMP_NUM_THREADS is set, but APPTAINERENV_OMP_NUM_THREADS is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_PORT is set, but APPTAINERENV_MASTER_PORT is preferred
+INFO:    Environment variable SINGULARITYENV_HUGGINGFACE_HUB_CACHE is set, but APPTAINERENV_HUGGINGFACE_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_TRANSFORMERS_OFFLINE is set, but APPTAINERENV_TRANSFORMERS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_TRITON_LIBCUDA_PATH is set, but APPTAINERENV_TRITON_LIBCUDA_PATH is preferred
+INFO:    Environment variable SINGULARITYENV_CUDA_DEVICE_MAX_CONNECTIONS is set, but APPTAINERENV_CUDA_DEVICE_MAX_CONNECTIONS is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_IB_TIMEOUT is set, but APPTAINERENV_NCCL_IB_TIMEOUT is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_DEBUG is set, but APPTAINERENV_NCCL_DEBUG is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_CACHE is set, but APPTAINERENV_HF_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_TRANSFORMERS_OFFLINE is set, but APPTAINERENV_TRANSFORMERS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_TRITON_LIBCUDA_PATH is set, but APPTAINERENV_TRITON_LIBCUDA_PATH is preferred
+INFO:    Environment variable SINGULARITYENV_CUDA_DEVICE_MAX_CONNECTIONS is set, but APPTAINERENV_CUDA_DEVICE_MAX_CONNECTIONS is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_IB_TIMEOUT is set, but APPTAINERENV_NCCL_IB_TIMEOUT is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_DEBUG is set, but APPTAINERENV_NCCL_DEBUG is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_CACHE is set, but APPTAINERENV_HF_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_OFFLINE is set, but APPTAINERENV_HF_HUB_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_DATASETS_OFFLINE is set, but APPTAINERENV_HF_DATASETS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_GPUS_PER_NODE is set, but APPTAINERENV_GPUS_PER_NODE is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_ADDR is set, but APPTAINERENV_MASTER_ADDR is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HOME is set, but APPTAINERENV_HF_HOME is preferred
+INFO:    Environment variable SINGULARITYENV_OMP_NUM_THREADS is set, but APPTAINERENV_OMP_NUM_THREADS is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_PORT is set, but APPTAINERENV_MASTER_PORT is preferred
+INFO:    Environment variable SINGULARITYENV_HUGGINGFACE_HUB_CACHE is set, but APPTAINERENV_HUGGINGFACE_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_TRANSFORMERS_OFFLINE is set, but APPTAINERENV_TRANSFORMERS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_TRITON_LIBCUDA_PATH is set, but APPTAINERENV_TRITON_LIBCUDA_PATH is preferred
+INFO:    Environment variable SINGULARITYENV_CUDA_DEVICE_MAX_CONNECTIONS is set, but APPTAINERENV_CUDA_DEVICE_MAX_CONNECTIONS is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_IB_TIMEOUT is set, but APPTAINERENV_NCCL_IB_TIMEOUT is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_DEBUG is set, but APPTAINERENV_NCCL_DEBUG is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_CACHE is set, but APPTAINERENV_HF_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_OFFLINE is set, but APPTAINERENV_HF_HUB_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_HF_DATASETS_OFFLINE is set, but APPTAINERENV_HF_DATASETS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_GPUS_PER_NODE is set, but APPTAINERENV_GPUS_PER_NODE is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_ADDR is set, but APPTAINERENV_MASTER_ADDR is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HOME is set, but APPTAINERENV_HF_HOME is preferred
+INFO:    Environment variable SINGULARITYENV_OMP_NUM_THREADS is set, but APPTAINERENV_OMP_NUM_THREADS is preferred
+INFO:    Environment variable SINGULARITYENV_MASTER_PORT is set, but APPTAINERENV_MASTER_PORT is preferred
+INFO:    Environment variable SINGULARITYENV_HUGGINGFACE_HUB_CACHE is set, but APPTAINERENV_HUGGINGFACE_HUB_CACHE is preferred
+INFO:    Environment variable SINGULARITYENV_TRANSFORMERS_OFFLINE is set, but APPTAINERENV_TRANSFORMERS_OFFLINE is preferred
+INFO:    Environment variable SINGULARITYENV_TRITON_LIBCUDA_PATH is set, but APPTAINERENV_TRITON_LIBCUDA_PATH is preferred
+INFO:    Environment variable SINGULARITYENV_CUDA_DEVICE_MAX_CONNECTIONS is set, but APPTAINERENV_CUDA_DEVICE_MAX_CONNECTIONS is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_IB_TIMEOUT is set, but APPTAINERENV_NCCL_IB_TIMEOUT is preferred
+INFO:    Environment variable SINGULARITYENV_NCCL_DEBUG is set, but APPTAINERENV_NCCL_DEBUG is preferred
+INFO:    Environment variable SINGULARITYENV_HF_HUB_CACHE is set, but APPTAINERENV_HF_HUB_CACHE is preferred
+nvm is not compatible with the "NPM_CONFIG_PREFIX" environment variable: currently set to "/p/project1/laionize/harsh/.npm-global"
+Run `unset NPM_CONFIG_PREFIX` to unset it.
+nvm is not compatible with the "NPM_CONFIG_PREFIX" environment variable: currently set to "/p/project1/laionize/harsh/.npm-global"
+Run `unset NPM_CONFIG_PREFIX` to unset it.
+nvm is not compatible with the "NPM_CONFIG_PREFIX" environment variable: currently set to "/p/project1/laionize/harsh/.npm-global"
+Run `unset NPM_CONFIG_PREFIX` to unset it.
+nvm is not compatible with the "NPM_CONFIG_PREFIX" environment variable: currently set to "/p/project1/laionize/harsh/.npm-global"
+Run `unset NPM_CONFIG_PREFIX` to unset it.
+nvm is not compatible with the "NPM_CONFIG_PREFIX" environment variable: currently set to "/p/project1/laionize/harsh/.npm-global"
+Run `unset NPM_CONFIG_PREFIX` to unset it.
+nvm is not compatible with the "NPM_CONFIG_PREFIX" environment variable: currently set to "/p/project1/laionize/harsh/.npm-global"
+Run `unset NPM_CONFIG_PREFIX` to unset it.
+nvm is not compatible with the "NPM_CONFIG_PREFIX" environment variable: currently set to "/p/project1/laionize/harsh/.npm-global"
+Run `unset NPM_CONFIG_PREFIX` to unset it.
+nvm is not compatible with the "NPM_CONFIG_PREFIX" environment variable: currently set to "/p/project1/laionize/harsh/.npm-global"
+Run `unset NPM_CONFIG_PREFIX` to unset it.
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Initializing 4 distributed tasks at: jwb0311i:29704
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Multi-node training enabled: num nodes: 8, node rank: 3
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Initializing 4 distributed tasks at: jwb0311i:29704
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Multi-node training enabled: num nodes: 8, node rank: 4
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Initializing 4 distributed tasks at: jwb0311i:29704
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Multi-node training enabled: num nodes: 8, node rank: 7
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Initializing 4 distributed tasks at: jwb0311i:29704
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Multi-node training enabled: num nodes: 8, node rank: 5
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Initializing 4 distributed tasks at: jwb0311i:29704
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Multi-node training enabled: num nodes: 8, node rank: 6
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Initializing 4 distributed tasks at: jwb0311i:29704
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Multi-node training enabled: num nodes: 8, node rank: 0
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Initializing 4 distributed tasks at: jwb0311i:29704
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Multi-node training enabled: num nodes: 8, node rank: 1
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Initializing 4 distributed tasks at: jwb0311i:29704
+[INFO|2025-11-27 01:08:55] llamafactory.launcher:143 >> Multi-node training enabled: num nodes: 8, node rank: 2
+[W1127 01:08:57.401706732 socket.cpp:759] [c10d] The client socket cannot be initialized to connect to [jwb0311i.juwels]:29704 (errno: 97 - Address family not supported by protocol).
+[W1127 01:08:57.356318250 socket.cpp:759] [c10d] The client socket cannot be initialized to connect to [jwb0311i.juwels]:29704 (errno: 97 - Address family not supported by protocol).
+[W1127 01:08:57.292869496 socket.cpp:759] [c10d] The client socket cannot be initialized to connect to [jwb0311i.juwels]:29704 (errno: 97 - Address family not supported by protocol).
+[W1127 01:08:57.391714883 socket.cpp:759] [c10d] The client socket cannot be initialized to connect to [jwb0311i.juwels]:29704 (errno: 97 - Address family not supported by protocol).
+[W1127 01:08:57.432813358 socket.cpp:759] [c10d] The client socket cannot be initialized to connect to [jwb0311i.juwels]:29704 (errno: 97 - Address family not supported by protocol).
+[W1127 01:08:57.378443381 socket.cpp:759] [c10d] The client socket cannot be initialized to connect to [jwb0311i.juwels]:29704 (errno: 97 - Address family not supported by protocol).
+[W1127 01:08:57.375017050 socket.cpp:759] [c10d] The client socket cannot be initialized to connect to [jwb0311i.juwels]:29704 (errno: 97 - Address family not supported by protocol).
+[W1127 01:08:57.494646372 socket.cpp:759] [c10d] The client socket cannot be initialized to connect to [jwb0311i.juwels]:29704 (errno: 97 - Address family not supported by protocol).
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[2025-11-27 01:09:04,501] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,501] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,501] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,501] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,506] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,507] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,507] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,507] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,507] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,507] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,507] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,507] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,508] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,508] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,508] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,509] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,508] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,508] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,509] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,509] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,509] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,509] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,509] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,509] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,510] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,510] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,510] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,513] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,515] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,515] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,515] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-11-27 01:09:04,515] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/opt/conda/lib/python3.11/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+    run_exp()
+    run_exp()  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+
+    run_exp()
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+    run_exp()
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+    run_exp()
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+    run_exp()
+      File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+run_exp()
+    run_exp()
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+        run_exp()run_exp()
+
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+    run_exp()
+    run_exp()
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+Traceback (most recent call last):
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+Traceback (most recent call last):
+    args = read_args(args)
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+            args = read_args(args) 
+  ^^^^^^^^^^^ ^^     ^ args = read_args(args)^ 
+ 
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+    args = read_args(args)
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+    args = read_args(args)
+    args = read_args(args)
+Traceback (most recent call last):
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+    File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+    ^^^^^^^^^ ^ ^ ^ ^ ^ ^ 
+    File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+    args = read_args(args)
+              args = read_args(args) ^
+^^^    ^args = read_args(args)^
+                  ^ ^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^
+^^^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+    ^run_exp()
+
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+  ^^^^^^^^^^^^^^^
+      File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+^ ^ ^ ^ ^ ^ ^ ^ ^ 
+  ^^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+^^ ^  ^ ^ ^     ^ run_exp()^ 
+^ ^ ^ ^^^^^
+^^^  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+^^^^^^^^
+        run_exp()dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+    
+dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+    run_exp()
+Traceback (most recent call last):
+  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+    run_exp()
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+    run_exp()
+    run_exp()
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+    run_exp()
+    run_exp()
+                     dict_config = OmegaConf.load(Path(sys.argv[1]).absolute()) 
+^^^^^^^^^^^^^^^ ^ ^ ^ ^ ^ ^     ^ run_exp()^ 
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+              args = read_args(args) 
+^^    ^args = read_args(args)^     
+^args = read_args(args) ^
+ ^ ^ ^ ^  ^  ^  ^   ^   ^  ^
+  ^  ^   File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+ ^  ^ ^  ^^ ^^ ^^^^^^^^^^^^^^^^^^^^^^
+^^^^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+^^^^^^^
+^^
+  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+        run_exp()run_exp()
+
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+    args = read_args(args)
+    args = read_args(args)    
+run_exp()
+              File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+       ^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^^
+^^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+^^
+    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+        run_exp()args = read_args(args)
+
+    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+    File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+         ^^^^^^^^^^^^    ^dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())^
+^
+      File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+                       args = read_args(args)  
+     ^ ^ ^ ^  ^   ^^  ^  ^  ^  ^      ^dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())^ ^
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+    run_exp()
+^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^^  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+^^    ^^dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())^^
+^^^^^^^^
+^^^^^^^^^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^^^^^^^^^^^^^^^^^^^^ ^ 
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+                  ^^^^^    ^^dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())^
+^^^^^    ^    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())^args = read_args(args)
+ ^
+ ^ ^ ^^ ^ ^ ^ ^ ^    ^   ^   ^   ^   ^  ^   ^   ^  ^^  ^^  ^^ ^^^ ^^^ ^^^ ^^^ ^^^^ ^^^^^ ^^^ ^^^^
+^^^^^^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^^^^^^^^
+    args = read_args(args)    
+args = read_args(args)
+                      args = read_args(args) 
+       ^args = read_args(args)^^
+^^^^^ ^^ ^ ^^^ ^^  ^^  ^  ^ ^ ^ ^^  ^^  ^^  ^^^ 
+    args = read_args(args)
+        args = read_args(args)
+args = read_args(args)
+^^^^^^^^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+                 ^args = read_args(args)^
+^^^^^^^^^^^ ^ ^ ^ ^ ^     ^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+^^^^^^^
+^
+ ^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+ ^^^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+^^^^^^^^^^^^^^^^^^^^^
+^^^
+  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^^^^^^      File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())^
+
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+                                    args = read_args(args) 
+^ ^ ^ ^^^^^^^^^^^^^ ^    ^ ^args = read_args(args)^ ^
+ ^^ ^^ ^^ ^^ ^  ^^  ^^  ^^ ^^ ^^ ^^^^ ^^^ ^^^ ^^^ ^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+^^^^^^^^^^^^^^^
+^^^^^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+^^^^
+^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+
+  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+                                ^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^
+^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+
+^ ^^ ^^^^^^^^^^^^^^ ^^ ^^^ ^^^ ^^^ ^^^ ^^^ ^^^ ^^^ ^^^ ^^^ ^^^ 
+^^ ^^ ^^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+ ^ ^^ ^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^^^^    ^^dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())^^
+^^^^^^^
+^^^^^^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+                  dict_config = OmegaConf.load(Path(sys.argv[1]).absolute()) 
+          dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())  
+  ^ ^ ^  ^   ^  ^  ^  ^   ^    ^   ^ ^ ^  ^^  ^^  ^^  ^^  ^^  ^^  ^^  ^^^^ ^^^ ^^^ ^^ ^^^ ^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^^^^^^^^^
+^^^^^^^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^^^^^^^^
+^^^^^^^^^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+     ^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+                                       ^  ^  ^  ^  ^  ^ ^^ ^^ ^^ ^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+                                 ^ ^ ^    ^     dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())^dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())^
+
+^^^^^^^^^^^^^^^^^^^  ^  ^^  ^^  ^^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^  ^^  ^^   ^ ^^  ^^ ^ ^  ^^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^
+^^^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+        with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+    
+with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+    with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+^^^^^^^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+        with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:    
+
+    with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+
+^^^^
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+        with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+
+    with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+    with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+    with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+    with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:    
+with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+        with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:    with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+
+    with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+                            ^^^^^ ^^^ ^^^ ^^^ ^^^ ^^^ ^^^ ^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^FileNotFoundError^^
+^: ^^[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+FileNotFoundError^
+^: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'FileNotFoundError^
+^: ^[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'^
+                  ^ ^^^  ^^  ^^  ^^  ^^  ^^  ^^  ^^  ^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+^^^^^^FileNotFoundError^^FileNotFoundError: ^^[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml': ^^
+[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'^^
+^^^^^^^^
+
+FileNotFoundErrorFileNotFoundError: : [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+
+             ^  ^  ^    ^   ^  ^^  ^^  ^ ^ ^ ^ ^^^ ^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        ^  ^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^
+        with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+
+    with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+^^^^^^^FileNotFoundError^^^^: ^^^[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'^^
+
+^^^^FileNotFoundError^^: ^^[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+^
+^FileNotFoundError^
+: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'FileNotFoundError
+
+FileNotFoundError: FileNotFoundErrorFileNotFoundError[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml': 
+: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+
+: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+                                 ^ ^ ^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^
+^^^
+FileNotFoundErrorFileNotFoundError
+: FileNotFoundError[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml': FileNotFoundError: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+
+                    ^^ ^^ ^^ ^^ ^^^ ^^ ^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^
+FileNotFoundError^^FileNotFoundError: ^[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml': ^
+[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'^
+^^
+        with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:    
+
+with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:    
+with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+                          ^   ^   ^   ^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+^^^^^^^FileNotFoundError^^^^
+
+: ^[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'^FileNotFoundError
+FileNotFoundError^: 
+: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'FileNotFoundError
+
+: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+    with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+    run_exp()
+    run_exp()
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+    args = read_args(args)
+    run_exp()
+    run_exp()
+              File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+ args = read_args(args) 
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+ ^^^^^^^^^^^^^^ ^ 
+    File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+       ^^^^^^^^^^^^^^^
+  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+    args = read_args(args)
+    args = read_args(args)
+      dict_config = OmegaConf.load(Path(sys.argv[1]).absolute()) 
+             ^ ^  ^  ^  ^  ^      ^ dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())^ ^
+^  ^^ ^^ ^^ ^^ ^^ ^^ 
+^  ^   ^  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+ ^ ^^ ^^ ^^^ ^
+ ^ ^ ^ ^   File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+^ ^ ^ ^ ^ ^ ^^^^^^^^^^^^    ^^dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())^^
+^^^^^^^^^^^^^^^^^^^^^     ^^ dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())^^
+ ^^ ^^ ^ ^^ ^^ ^^^ ^^ ^^  ^^  
+ ^ ^  ^  ^   ^ ^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+  ^  ^^ ^^ ^^  ^^ ^^ ^^ ^^ ^^^^
+^^^^^^^^^^^^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+^^^^
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+        with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+    
+with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:    
+with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+                                ^  ^^ ^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^
+^FileNotFoundError
+^^FileNotFoundError
+: FileNotFoundError[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml': 
+: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'FileNotFoundError[Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+
+: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+Traceback (most recent call last):
+  File "/app/src/llamafactory/launcher.py", line 180, in <module>
+    run_exp()
+  File "/app/src/llamafactory/train/tuner.py", line 95, in run_exp
+    args = read_args(args)
+           ^^^^^^^^^^^^^^^
+  File "/app/src/llamafactory/hparams/parser.py", line 64, in read_args
+    dict_config = OmegaConf.load(Path(sys.argv[1]).absolute())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/omegaconf/omegaconf.py", line 189, in load
+    with io.open(os.path.abspath(file_), "r", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/p/project1/laionize/harsh/LLaMA-Factory/examples/train_full/opensci_full_sft_fsdp.yaml'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x1463abed1800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x1500b3421800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x1486392d1800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x14c6e660d800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x152bdad59800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x145e8e1f9800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x14b433d09800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 458, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_4d_kernel", __class__._4d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 181, in _update_autotune_table
+    autotune_table = cache_manager.load()
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 110, in load
+    loaded_dict = pickle.load(handle)
+                  ^^^^^^^^^^^^^^^^^^^
+EOFError: Ran out of input
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x153cea685800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x146e36ba5800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 458, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_4d_kernel", __class__._4d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_4d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_4d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x14b57bc2d800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x1517dd199800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x15409bf19800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x15090fcdd800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x14ceae929800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 458, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_4d_kernel", __class__._4d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_4d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_4d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x149f983a1800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x14aa28285800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x1465dce71800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x1461788c9800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x1468fcc55800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 457, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_2d_kernel", __class__._2d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_2d_kernel.pickle'
+Exception ignored in atexit callback: <function matmul_ext_update_autotune_table at 0x14ab36439800>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 480, in matmul_ext_update_autotune_table
+    fp16_matmul._update_autotune_table()
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 458, in _update_autotune_table
+    TritonMatmul._update_autotune_table(__class__.__name__ + "_4d_kernel", __class__._4d_kernel)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 186, in _update_autotune_table
+    cache_manager.put(autotune_table)
+  File "/opt/conda/lib/python3.11/site-packages/deepspeed/ops/transformer/inference/triton/matmul_ext.py", line 105, in put
+    os.replace(self.file_path + ".tmp", self.file_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_4d_kernel.pickle.tmp' -> '/p/home/jusers/raj3/juwels/.triton/autotune/Fp16Matmul_4d_kernel.pickle'
+W1127 01:09:10.190000 1066973 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1066975 closing signal SIGTERM
+W1127 01:09:10.191000 1066973 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1066977 closing signal SIGTERM
+W1127 01:09:10.191000 1066973 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 1066978 closing signal SIGTERM
+W1127 01:09:10.193000 2529961 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2529963 closing signal SIGTERM
+W1127 01:09:10.193000 2529961 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2529964 closing signal SIGTERM
+W1127 01:09:10.194000 2529961 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2529966 closing signal SIGTERM
+E1127 01:09:10.355000 1066973 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 1 (pid: 1066976) of binary: /opt/conda/bin/python3.11
+E1127 01:09:10.358000 2529961 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 2 (pid: 2529965) of binary: /opt/conda/bin/python3.11
+Traceback (most recent call last):
+  File "/opt/conda/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 918, in main
+    run(args)
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 909, in run
+    elastic_launch(
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/app/src/llamafactory/launcher.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-11-27_01:09:10
+  host      : jwb1155.juwels
+  rank      : 17 (local_rank: 1)
+  exitcode  : 1 (pid: 1066976)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Traceback (most recent call last):
+  File "/opt/conda/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 918, in main
+    run(args)
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 909, in run
+    elastic_launch(
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/app/src/llamafactory/launcher.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-11-27_01:09:10
+  host      : jwb1159.juwels
+  rank      : 30 (local_rank: 2)
+  exitcode  : 1 (pid: 2529965)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+W1127 01:09:10.595000 736189 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 736191 closing signal SIGTERM
+W1127 01:09:10.595000 736189 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 736192 closing signal SIGTERM
+W1127 01:09:10.595000 736189 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 736194 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/opt/conda/bin/llamafactory-cli", line 7, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/app/src/llamafactory/cli.py", line 24, in main
+    launcher.launch()
+  File "/app/src/llamafactory/launcher.py", line 110, in launch
+    process = subprocess.run(
+              ^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['torchrun', '--nnodes', '8', '--node_rank', '4', '--nproc_per_node', '4', '--master_addr', 'jwb0311i', '--master_port', '29704', '/app/src/llamafactory/launcher.py', 'examples/train_full/opensci_full_sft_fsdp.yaml']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/opt/conda/bin/llamafactory-cli", line 7, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/app/src/llamafactory/cli.py", line 24, in main
+    launcher.launch()
+  File "/app/src/llamafactory/launcher.py", line 110, in launch
+    process = subprocess.run(
+              ^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['torchrun', '--nnodes', '8', '--node_rank', '7', '--nproc_per_node', '4', '--master_addr', 'jwb0311i', '--master_port', '29704', '/app/src/llamafactory/launcher.py', 'examples/train_full/opensci_full_sft_fsdp.yaml']' returned non-zero exit status 1.
+W1127 01:09:10.688000 80345 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 80347 closing signal SIGTERM
+W1127 01:09:10.689000 80345 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 80348 closing signal SIGTERM
+W1127 01:09:10.690000 499513 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 499527 closing signal SIGTERM
+W1127 01:09:10.694000 4029320 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 4029331 closing signal SIGTERM
+W1127 01:09:10.694000 4029320 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 4029333 closing signal SIGTERM
+W1127 01:09:10.694000 4029320 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 4029334 closing signal SIGTERM
+W1127 01:09:10.695000 815461 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 815472 closing signal SIGTERM
+W1127 01:09:10.695000 815461 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 815473 closing signal SIGTERM
+W1127 01:09:10.696000 815461 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 815475 closing signal SIGTERM
+E1127 01:09:10.759000 736189 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 2 (pid: 736193) of binary: /opt/conda/bin/python3.11
+Traceback (most recent call last):
+  File "/opt/conda/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 918, in main
+    run(args)
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 909, in run
+    elastic_launch(
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/app/src/llamafactory/launcher.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-11-27_01:09:10
+  host      : jwb1154.juwels
+  rank      : 14 (local_rank: 2)
+  exitcode  : 1 (pid: 736193)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E1127 01:09:10.804000 499513 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 0 (pid: 499526) of binary: /opt/conda/bin/python3.11
+E1127 01:09:10.806000 80345 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 2 (pid: 80349) of binary: /opt/conda/bin/python3.11
+Traceback (most recent call last):
+  File "/opt/conda/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+Traceback (most recent call last):
+  File "/opt/conda/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 918, in main
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 918, in main
+    run(args)
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 909, in run
+    elastic_launch(
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    run(args)
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 909, in run
+    return launch_agent(self._config, self._entrypoint, list(args))
+    elastic_launch(
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/app/src/llamafactory/launcher.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2025-11-27_01:09:10
+  host      : jwb0311.juwels
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 499528)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2025-11-27_01:09:10
+  host      : jwb0311.juwels
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 499529)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-11-27_01:09:10
+  host      : jwb0311.juwels
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 499526)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/app/src/llamafactory/launcher.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2025-11-27_01:09:10
+  host      : jwb1158.juwels
+  rank      : 27 (local_rank: 3)
+  exitcode  : 1 (pid: 80350)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-11-27_01:09:10
+  host      : jwb1158.juwels
+  rank      : 26 (local_rank: 2)
+  exitcode  : 1 (pid: 80349)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E1127 01:09:10.832000 815461 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 2 (pid: 815474) of binary: /opt/conda/bin/python3.11
+Traceback (most recent call last):
+  File "/opt/conda/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 918, in main
+    run(args)
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 909, in run
+    elastic_launch(
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/app/src/llamafactory/launcher.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-11-27_01:09:10
+  host      : jwb0315.juwels
+  rank      : 10 (local_rank: 2)
+  exitcode  : 1 (pid: 815474)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+E1127 01:09:10.858000 4029320 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 1 (pid: 4029332) of binary: /opt/conda/bin/python3.11
+Traceback (most recent call last):
+  File "/opt/conda/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 918, in main
+    run(args)
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 909, in run
+    elastic_launch(
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/app/src/llamafactory/launcher.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-11-27_01:09:10
+  host      : jwb1156.juwels
+  rank      : 21 (local_rank: 1)
+  exitcode  : 1 (pid: 4029332)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+W1127 01:09:10.994000 2358114 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2358127 closing signal SIGTERM
+W1127 01:09:10.996000 2358114 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 2358129 closing signal SIGTERM
+E1127 01:09:11.011000 2358114 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 1 (pid: 2358128) of binary: /opt/conda/bin/python3.11
+Traceback (most recent call last):
+  File "/opt/conda/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 918, in main
+    run(args)
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/run.py", line 909, in run
+    elastic_launch(
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/app/src/llamafactory/launcher.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2025-11-27_01:09:10
+  host      : jwb0314.juwels
+  rank      : 7 (local_rank: 3)
+  exitcode  : 1 (pid: 2358130)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-11-27_01:09:10
+  host      : jwb0314.juwels
+  rank      : 5 (local_rank: 1)
+  exitcode  : 1 (pid: 2358128)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Traceback (most recent call last):
+  File "/opt/conda/bin/llamafactory-cli", line 7, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/app/src/llamafactory/cli.py", line 24, in main
+    launcher.launch()
+  File "/app/src/llamafactory/launcher.py", line 110, in launch
+    process = subprocess.run(
+              ^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['torchrun', '--nnodes', '8', '--node_rank', '3', '--nproc_per_node', '4', '--master_addr', 'jwb0311i', '--master_port', '29704', '/app/src/llamafactory/launcher.py', 'examples/train_full/opensci_full_sft_fsdp.yaml']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/opt/conda/bin/llamafactory-cli", line 7, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/app/src/llamafactory/cli.py", line 24, in main
+    launcher.launch()
+  File "/app/src/llamafactory/launcher.py", line 110, in launch
+    process = subprocess.run(
+              ^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['torchrun', '--nnodes', '8', '--node_rank', '6', '--nproc_per_node', '4', '--master_addr', 'jwb0311i', '--master_port', '29704', '/app/src/llamafactory/launcher.py', 'examples/train_full/opensci_full_sft_fsdp.yaml']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/opt/conda/bin/llamafactory-cli", line 7, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/app/src/llamafactory/cli.py", line 24, in main
+    launcher.launch()
+  File "/app/src/llamafactory/launcher.py", line 110, in launch
+    process = subprocess.run(
+              ^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['torchrun', '--nnodes', '8', '--node_rank', '0', '--nproc_per_node', '4', '--master_addr', 'jwb0311i', '--master_port', '29704', '/app/src/llamafactory/launcher.py', 'examples/train_full/opensci_full_sft_fsdp.yaml']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/opt/conda/bin/llamafactory-cli", line 7, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/app/src/llamafactory/cli.py", line 24, in main
+    launcher.launch()
+  File "/app/src/llamafactory/launcher.py", line 110, in launch
+    process = subprocess.run(
+              ^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['torchrun', '--nnodes', '8', '--node_rank', '2', '--nproc_per_node', '4', '--master_addr', 'jwb0311i', '--master_port', '29704', '/app/src/llamafactory/launcher.py', 'examples/train_full/opensci_full_sft_fsdp.yaml']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/opt/conda/bin/llamafactory-cli", line 7, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/app/src/llamafactory/cli.py", line 24, in main
+    launcher.launch()
+  File "/app/src/llamafactory/launcher.py", line 110, in launch
+    process = subprocess.run(
+              ^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['torchrun', '--nnodes', '8', '--node_rank', '5', '--nproc_per_node', '4', '--master_addr', 'jwb0311i', '--master_port', '29704', '/app/src/llamafactory/launcher.py', 'examples/train_full/opensci_full_sft_fsdp.yaml']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/opt/conda/bin/llamafactory-cli", line 7, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/app/src/llamafactory/cli.py", line 24, in main
+    launcher.launch()
+  File "/app/src/llamafactory/launcher.py", line 110, in launch
+    process = subprocess.run(
+              ^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['torchrun', '--nnodes', '8', '--node_rank', '1', '--nproc_per_node', '4', '--master_addr', 'jwb0311i', '--master_port', '29704', '/app/src/llamafactory/launcher.py', 'examples/train_full/opensci_full_sft_fsdp.yaml']' returned non-zero exit status 1.
+srun: error: jwb1155: task 4: Exited with exit code 1
+srun: Terminating StepId=12912204.0
+srun: error: jwb1154: task 3: Terminated
+srun: error: jwb0314: task 1: Terminated
+srun: error: jwb1156: task 5: Terminated
+srun: error: jwb0315: task 2: Terminated
+srun: error: jwb1158: task 6: Exited with exit code 1
+srun: error: jwb0311: task 0: Exited with exit code 1
+srun: Force Terminated StepId=12912204.0

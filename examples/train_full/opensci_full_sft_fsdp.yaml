@@ -1,0 +1,56 @@
+### model
+# model_name_or_path: /leonardo_work/AIFAC_L01_028/hraj0000/megatron_lm_reference/converted_checkpoints/1.7b_data-Comma0.1-300BT/hf/iter_0071526
+# model_name_or_path: /leonardo_work/AIFAC_L01_028/hraj0000/megatron_lm_reference/converted_checkpoints/1.7b_data-MixtureVitae-300BT/hf/iter_0071526
+model_name_or_path: laineyyy/openeurollm-datamix-2b-en-80pct-DPO-HelpSteer3
+cache_dir: /p/scratch/laionize/raj3/.cache
+trust_remote_code: true
+rope_scaling: yarn
+enable_liger_kernel: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full  # Full fine-tuning (not LoRA)
+deepspeed: examples/deepspeed/ds_z3_partial_offload_config.json
+# Note: No deepspeed config - using FSDP instead via accelerate launch
+
+### dataset
+dataset: long_sft  # You'll need to add this to data/dataset_info.json
+template: gemma  # gemma template
+mask_history: true
+cutoff_len: 16384  # Match model_max_length
+max_samples: null  # Use full dataset
+overwrite_cache: true
+preprocessing_num_workers: 16  # Match LIMO preprocessing workers
+dataloader_num_workers: 2 #avoid issues when dev/shm is small
+dataloader_prefetch_factor: 1
+dataloader_persistent_workers: false
+dataloader_pin_memory: false
+group_by_length: true
+
+### output
+output_dir: output/openeurollm-datamix-2b-en-80pct-DPO-HelpSteer3-16k
+logging_steps: 5
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false  # Incompatible with FSDPv2
+report_to: none  # Set to 'none' to disable WandB
+
+### train
+per_device_train_batch_size: 2 #4
+gradient_accumulation_steps: 2
+learning_rate: 2.0e-4
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+weight_decay: 0.03
+max_grad_norm: 1.0e-3  # Note: LLaMA-Factory uses max_grad_norm instead of max_grad_norm
+bf16: true
+# pure_bf16: true # not for deepspeed
+gradient_checkpointing: true
+ddp_timeout: 180000000
+
+### optimizations
+# torch_compile: true
+# torch_compile_backend: eager
+# optim: paged_adamw_8bit incompatible with FSDP
